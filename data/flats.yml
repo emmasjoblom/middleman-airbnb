@@ -1,0 +1,22 @@
+- city: Berlin
+  description: "Walking distance to restaurants and bars"
+  link: "http://cdn1.vagabond.se/YTo2OntzOjI6ImlkIjtpOjEyNjYzMjg7czoxOiJ3IjtpOjEwMjA7czoxOiJoIjtpOjY2MDtzOjE6ImMiO2k6MDtzOjE6InMiO2k6MDtzOjE6ImsiO3M6NDA6IjI3MTU1ZDlhM2NlMTc1ZDZlMjVmMzg4ZTNmNTIxMTc1NDU1MzRjZGIiO30="
+  category: "popular"
+  user: "https://avatars0.githubusercontent.com/u/39221957?v=4"
+  rating: 3
+- city: Shanghai
+  description: "Apartment with rooftop pool"
+  link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG2yZ8Ms7iuz60cdogvKqjK8gkji4Jidp-1Km609ko_8Obb-5giw"
+  category: "popular"
+  user: "https://avatars2.githubusercontent.com/u/32689473?v=4"
+  rating: 5
+- city: Stockholm
+  description: "Located in the heart of the city"
+  link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41r5h4ie5BhL-iXQBvFgl84XGd1RPW5jWoBtTRe_Ho5UKe-MBNQ"
+  category: "popular"
+  user: "https://avatars3.githubusercontent.com/u/36322423?v=4"
+  rating: 4
+
+
+
+
