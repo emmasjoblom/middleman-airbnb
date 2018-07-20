@@ -7,20 +7,107 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-3c48b980.css" rel="stylesheet" />
+    <link href="stylesheets/application-fe70200b.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
-    <div id="home">
-  <div class="home-content">
-    <img src="images/logo-acc9c0ec.png" width="200" alt="Logo" />
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <a href="about.html">More about this template</a>
-    </p>
+    
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo-acc9c0ec.png" alt="logo">
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
+    <a href="team.html">Team</a>
+
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+        <li><a href="about.html">Team</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    <div class="card-wrapper">
+  <div class"container">
+    <div class="row">
+      <div class="col-xs-12 col-s-4">
+        
+
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://cdn1.vagabond.se/YTo2OntzOjI6ImlkIjtpOjEyNjYzMjg7czoxOiJ3IjtpOjEwMjA7czoxOiJoIjtpOjY2MDtzOjE6ImMiO2k6MDtzOjE6InMiO2k6MDtzOjE6ImsiO3M6NDA6IjI3MTU1ZDlhM2NlMTc1ZDZlMjVmMzg4ZTNmNTIxMTc1NDU1MzRjZGIiO30=')">
+    <div class="card-category">popular</div>
+    <div class="card-description">
+    <h2>Berlin</h2>
+    <p>Walking distance to restaurants and bars</p>
+    </div>
+    <img class="card-user" src= https://avatars0.githubusercontent.com/u/39221957?v=4 >
+    <a class="card-link" href="#" ></a>
+  </div>
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG2yZ8Ms7iuz60cdogvKqjK8gkji4Jidp-1Km609ko_8Obb-5giw')">
+    <div class="card-category">popular</div>
+    <div class="card-description">
+    <h2>Shanghai</h2>
+    <p>Apartment with rooftop pool</p>
+    </div>
+    <img class="card-user" src= https://avatars2.githubusercontent.com/u/32689473?v=4 >
+    <a class="card-link" href="#" ></a>
+  </div>
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41r5h4ie5BhL-iXQBvFgl84XGd1RPW5jWoBtTRe_Ho5UKe-MBNQ')">
+    <div class="card-category">popular</div>
+    <div class="card-description">
+    <h2>Stockholm</h2>
+    <p>Located in the heart of the city</p>
+    </div>
+    <img class="card-user" src= https://avatars3.githubusercontent.com/u/36322423?v=4 >
+    <a class="card-link" href="#" ></a>
+  </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fa fa-github"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fa fa-heart"></i> at Le Wagon
   </div>
 </div>
 
